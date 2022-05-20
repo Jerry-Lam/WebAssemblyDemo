@@ -1,0 +1,1 @@
+/root/webassembly/emsdk/upstream/emscripten/em++ -s WASM=1 -s EXPORTED_FUNCTIONS='[_main]' @CMakeFiles/a.dir/objects1.rsp -o ../public/a.wasm.js 
