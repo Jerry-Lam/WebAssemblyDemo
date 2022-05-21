@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.15.0)
 option(JS_ONLY "Compiles to native JS (No WASM)" OFF)
 
 add_definitions(-std=c++20 -O3)
-include_directories(include)
+include_directories(${PROJECT_SOURCE_DIR}/3rdparty/include)
 
 file(GLOB SOURCES src/*.cpp)
 
