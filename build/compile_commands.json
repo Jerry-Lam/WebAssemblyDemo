@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/root/webassembly/WebAssemblyDemo/build",
+  "command": "/root/webassembly/emsdk/upstream/emscripten/em++  @CMakeFiles/a.dir/includes_CXX.rsp -g   -std=c++20 -O3 -o CMakeFiles/a.dir/src/main.cpp.o -c /root/webassembly/WebAssemblyDemo/src/main.cpp",
+  "file": "/root/webassembly/WebAssemblyDemo/src/main.cpp"
+}
+]

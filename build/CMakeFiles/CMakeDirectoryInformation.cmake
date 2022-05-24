@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/root/webassembly/WebAssemblyDemo")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/root/webassembly/WebAssemblyDemo/bulid")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/root/webassembly/WebAssemblyDemo/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
