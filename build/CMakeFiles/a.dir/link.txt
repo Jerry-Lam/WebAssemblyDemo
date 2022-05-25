@@ -1,1 +1,1 @@
-/root/webassembly/emsdk/upstream/emscripten/em++ -g -s WASM=1 -s ALLOW_MEMORY_GROWTH=1 -s EXPORTED_FUNCTIONS='[_main]' -s NO_EXIT_RUNTIME=1 -lidbfs.js @CMakeFiles/a.dir/objects1.rsp -o ../public/a.wasm.js 
+/root/webassembly/emsdk/upstream/emscripten/em++ -g -s WASM=1 --pre-js pre.js @CMakeFiles/a.dir/objects1.rsp -o ../public/a.wasm.js 
